@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.btn{
+	background: white;
+	height: 80px;
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+	
+
+}
+.btn:before{
+	content: 'hi';
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-30%);
+	position: absolute;
+}
+.btn:after{
+	content: 'plat man';
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-20%);
+	position: absolute;
+	top: 120%;
+	transition: 0.5s;
+
+}
+
+.btn:hover:before{
+	top: -50%;
+}
+
+.btn:hover:after{
+	top: 30%;
+}
+
+

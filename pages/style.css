@@ -1,0 +1,16 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'poppins',sans-serif;
+}
+.hero{
+	min-height:30vh;
+	width:30%;
+	background-color:#000;
+	background-image:url(https://th.bing.com/th/id/R.e7f504921c6c68fd12fe0105519b97b6?rik=dxHXARgIO7TWYQ&riu=http%3a%2f%2fblog-imgs-45.fc2.com%2fa%2fn%2fi%2fanimori13%2f2e9e655b.gif&ehk=mxIEFCWe9%2bHyS2llj%2bSKbB31vp8lSDkj1gVpmQDUN9o%3d&risl=&pid=ImgRaw&r=0);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding:0 8%;
+}
